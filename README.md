@@ -10,7 +10,7 @@
 ## 目錄
 
   - [作品介紹](#introduce)
-  - [展示](#display)
+  - [展示作品](#display)
   - [專案設定](#project-setting)
   - [簡介](#summary)
   - [使用技術](#skills)
