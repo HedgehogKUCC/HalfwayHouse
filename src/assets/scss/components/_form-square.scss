@@ -1,0 +1,23 @@
+// BottomOfPage.vue
+.form__square {
+  background-color: white;
+
+  &--withicon {
+    padding-left: 60px;
+    position: relative;
+  }
+
+  .form__input {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+  }
+
+  .form__square__icon--left {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+}

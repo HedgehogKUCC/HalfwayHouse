@@ -1,0 +1,25 @@
+@import "~bootstrap/scss/functions";
+@import "./helpers/variables";
+@import "./helpers/bootstrap";
+
+// 區塊
+@import "./components/carts";
+@import "./components/sidebar";
+@import "./components/form-square";
+@import "./components/form-signin";
+@import "./components/shoppingCart";
+
+// 元件
+@import "./components/imgArea";
+@import "./components/processSteps";
+
+// 通用類別
+@import "./components/utilities";
+
+html {
+  font-size: 15px;
+}
+
+body {
+  font-family: monospace, arial, sans-serif;
+}

@@ -1,16 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <!-- 指定螢幕寬度為裝置寬度，畫面載入初始縮放比例 100% -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Social: Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@" />
+    <meta name="twitter:title" content="遛噠 - 中途之家" />
+    <meta
+      name="twitter:description"
+      content="歡迎來遛噠遛噠 https://hedgehogkucc.github.io/vuecli/#/index"
+    />
+    <meta
+      property="twitter:image:src"
+      content="https://images.unsplash.com/photo-1493406300581-484b937cdc41?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
+    />
+
+    <!-- Social: Facebook / Open Graph -->
+    <meta
+      property="og:url"
+      content="https://hedgehogkucc.github.io/vuecli/#/index"
+    />
+    <meta property="og:title" content="遛噠 - 中途之家" />
+    <meta
+      property="og:image"
+      content="https://images.unsplash.com/photo-1493406300581-484b937cdc41?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
+    />
+    <meta
+      property="og:description"
+      content="歡迎來遛噠遛噠 https://hedgehogkucc.github.io/vuecli/#/index"
+    />
+    <meta property="og:site_name" content="遛噠中途之家 | 首頁" />
+    <meta property="og:type" content="website" />
+
+    <!-- Social: Google+ / Schema.org  -->
+    <meta itemprop="name" content="遛噠 - 中途之家" />
+    <meta
+      itemprop="description"
+      content="歡迎來遛噠遛噠 https://hedgehogkucc.github.io/vuecli/#/index"
+    />
+    <meta
+      itemprop="image"
+      content="https://images.unsplash.com/photo-1493406300581-484b937cdc41?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
+    />
+
+    <!-- Favicon -->
+    <link rel="icon" href="<%= BASE_URL %>logo-head.ico" />
+
+    <!-- Plugins -->
+    <!-- <link 
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+      integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+      crossorigin="anonymous"
+    > -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/fontawesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+    />
+
+    <title>遛噠 - 中途之家</title>
   </head>
-  <body>
-    <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
+  <body ontouchstart>
     <div id="app"></div>
     <!-- built files will be auto injected -->
   </body>

@@ -1,0 +1,21 @@
+// Navbar.vue
+.dropdown__menu--right {
+  right: -15px;
+  left: auto;
+}
+
+.btn__cart {
+  position: relative;
+  right: -15px;
+
+  .badge {
+    position: absolute;
+    top: 1px;
+    right: 0;
+  }
+
+  &--interactive:hover {
+    transition: 0.8s;
+    transform: scale(0.96);
+  }
+}

@@ -1,0 +1,65 @@
+// Donate.vue
+.img__area {
+  height: 200px;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  transition: .4s;
+  overflow: hidden;
+}
+
+.img__area::before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transform: translateY(80%);
+  background-color: #fff;
+  color: darken($secondary, 10%);
+  padding: 5px 10px;
+  content: attr(data-title);
+  font-size: 22px;
+  text-align: center;
+}
+
+.img__area:hover::before {
+  transform: translateY(0);
+  padding: 10px;
+  background-color: rgba($primary-500, .5);
+  transition: .1s;
+  color: #fff;
+}
+
+.img__area::after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #fff;
+  transform: translateY(100%);
+  opacity: 0;
+  text-align: center;
+  padding-top: 35%;
+  font-size: 25px;
+  content: attr(data-description);
+  transition: .2s;
+  margin-top: 10px;
+  @include media-breakpoint-down(sm) {
+    padding-top: 20%;
+  }
+}
+
+.img__area:hover::after {
+  transform: translateY(0);
+  opacity: 1;
+  transition: .3s .3s;
+}
+
+.img__icon--stared {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1029;
+}

@@ -1,0 +1,28 @@
+// Carts.vue
+.cart {
+  color: theme-color('secondary');
+
+  &--borderTop {
+    & + .cart--borderTop {
+      @include media-breakpoint-up(md) {
+        border-top: solid 1px $primary-200;
+      }
+    }
+  }
+
+  .cart__msg {
+    @include media-breakpoint-up(md) {
+      background-color: darken(theme-color('primary'), 30%);
+      color: white;
+    }
+
+    &__title {
+      background-color: $primary-200;
+      color: theme-color('secondary');
+      @include media-breakpoint-up(md) {
+        background-color: darken(theme-color('primary'), 30%);
+        color: white;
+      }
+    }
+  }
+}
