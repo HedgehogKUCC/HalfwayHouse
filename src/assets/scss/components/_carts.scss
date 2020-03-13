@@ -1,6 +1,7 @@
 // Carts.vue
 .cart {
   color: theme-color('secondary');
+  min-height: calc(100vh - 588px);
 
   &--borderTop {
     & + .cart--borderTop {
