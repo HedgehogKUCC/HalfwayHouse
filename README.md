@@ -76,7 +76,6 @@ npm run serve
 
 <h2 id="skills">使用技術</h2>
 
-- 六角學院 API
 - Vue CLI 4
 - Vuex
 - Vue-Router
@@ -85,7 +84,7 @@ npm run serve
 - JavaScript ( ES6...等 )
 - jQuery
 - Bootstrap 4
-- Axios
+- Axios ( 串接 六角學院 API )
 - ESLint ( Standard )
 
 <br>
